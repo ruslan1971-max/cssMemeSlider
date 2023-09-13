@@ -3,7 +3,7 @@
 	padding: 0;
 }
 html {
-	font-size: 65.2%;
+	font-size: 62.5%;
 }
 body {
 	box-sizing: border-box;
@@ -73,7 +73,7 @@ body {
 
 .about__pagination-dot.active {  
 	background-color: black;
-	border: 1px solid rgb(98, 98, 240);
+	border: 0.1rem solid rgb(98, 98, 240);
 }
 
 .active, .about__pagination-dot:hover {
@@ -111,9 +111,9 @@ body {
 	letter-spacing: 0.15em;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 50rem) {
 	.about {
-    width: 100vw;
+                width: 100vw;
 		height: 100vh;
 	}
 
@@ -141,13 +141,13 @@ body {
   
 	.slider__text-wrapper {
 		width: 42rem;
-    justify-content: flex-start;
-		padding-right: 180px;
+                justify-content: flex-start;
+		padding-right: 18rem;
 
 	}
 
 	.about__pagination-wrap {
 		margin: 0 auto;
-		padding: 20px 0 40px;
+		padding: 2rem 0 4rem;
 	}
 }
